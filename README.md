@@ -131,3 +131,18 @@ export default {
   }
 }
 ```
+
+### setting up husky
+
+npx husky-init && npm i
+npx husky add .husky/pre-commit "npm run prettier" && npx husky add .husky/pre-commit "npm run linter"
+
+#### The husky pre-commit file ( if you run the command above it will add the lines below to your pre-commit )
+
+```bash
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npm run prettier # format the code with prettier
+npm run linter # lint the code with eslint, then commit
+```
