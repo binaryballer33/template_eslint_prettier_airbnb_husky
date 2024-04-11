@@ -1,4 +1,4 @@
-# Tailwind CSS, Airbnb Config, Prettier, Husky Working Model
+# Tailwind CSS / MUI, Airbnb Config, Prettier, Husky Setup
 
 ## You Can Add This To You Zshrc For To Install All Dev Dependencies For Tailwind and MUI latest versions
 
