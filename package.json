@@ -8,8 +8,8 @@
     "build": "tsc && vite build",
     "linter": "eslint . --ext js,jsx,ts,tsx --report-unused-disable-directives --max-warnings 0",
     "linter:fix": "eslint . --ext js,jsx,ts,tsx --report-unused-disable-directives --max-warnings 0 --fix",
-    "prettier": "npx prettier --debug-check .",
-    "prettier:fix": "npx prettier --write .",
+    "formatter": "npx prettier --debug-check .",
+    "formatter:fix": "npx prettier --write .",
     "preview": "vite preview",
     "prepare": "husky install"
   },
